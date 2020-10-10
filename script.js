@@ -21,6 +21,9 @@ function closeBack() {
 
 //event listeners
 panel1.addEventListener("click", openUp);
-
+panel2.addEventListener("click", openUp);
+panel3.addEventListener("click", openUp);
 
 panel1.addEventListener("mouseleave", closeBack);
+panel2.addEventListener("mouseleave", closeBack);
+panel3.addEventListener("mouseleave", closeBack);
